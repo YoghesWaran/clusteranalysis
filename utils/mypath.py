@@ -18,7 +18,7 @@ class MyPath(object):
             return '/path/to/cifar-20/'
 
         elif database == 'stl-10':
-            return '/path/to/stl-10/'
+            return '/content/clusteranalysis/data/stl10_binary.tar.gz'
         
         elif database in ['imagenet', 'imagenet_50', 'imagenet_100', 'imagenet_200']:
             return '/path/to/imagenet/'
