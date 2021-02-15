@@ -135,6 +135,7 @@ def visualize_indices(indices, dataset, hungarian_match):
     for idx in indices:
         img = np.array(dataset.get_image(idx)).astype(np.uint8)
         img = Image.fromarray(img)
+        print(img)
         plt.figure()
         plt.axis('off')
         plt.imshow(img)
